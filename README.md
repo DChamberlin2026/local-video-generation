@@ -8,3 +8,5 @@ python tools for running text to video on local hardware
 ```bash
 python generate_video.py "a cinematic sunset over the ocean" --output outputs/sunset.mp4
 ```
+
+python text2video_local.py --prompt "a fluffy white dragon sleeping on a pile of glowing crystals, cinematic lighting"

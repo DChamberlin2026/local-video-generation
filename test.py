@@ -1,5 +1,5 @@
 import torch
 print("torch:", torch.__version__)
-print("cuda available:", torch.cuda.is_available())
 print("torch cuda:", torch.version.cuda)
-print("cudnn:", torch.backends.cudnn.version())
+print("cuda available:", torch.cuda.is_available())
+print("arch list:", torch.cuda.get_arch_list())
